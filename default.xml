@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="Lyoncore" fetch="https://github.com/Lyoncore/" />
+  <default revision="master"
+           remote="Lyoncore"
+           sync-j="4" />
+
+  <project path="ubuntu-recovery-rplib" name="ubuntu-recovery-rplib"/>
+  <project path="ubuntu-recovery-image" name="ubuntu-recovery-image"/>
+  <project path="ubuntu-recovery-rpoem" name="ubuntu-recovery-rpoem"/>
+
+</manifest>
